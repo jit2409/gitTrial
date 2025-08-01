@@ -1277,3 +1277,331 @@
 2025-06-16 15:54:18 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-06-16 15:54:18 - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
 2025-06-16 15:54:18 - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-08-01 10:14:13 - c.s.QuickCommerceBackendApplication - Starting QuickCommerceBackendApplication using Java 21.0.2 with PID 20279 (/Users/jitendrasharma/git/gitTrial/target/classes started by jitendrasharma in /Users/jitendrasharma/git/gitTrial)
+2025-08-01 10:14:13 - c.s.QuickCommerceBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-01 10:14:13 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-01 10:14:13 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-01 10:14:13 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-01 10:14:14 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 25 ms. Found 7 JPA repository interfaces.
+2025-08-01 10:14:14 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-08-01 10:14:14 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-01 10:14:14 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-01 10:14:14 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-08-01 10:14:14 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-01 10:14:14 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 648 ms
+2025-08-01 10:14:14 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-01 10:14:14 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-08-01 10:14:14 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-08-01 10:14:14 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-01 10:14:14 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-01 10:14:14 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@172fdbec
+2025-08-01 10:14:14 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-01 10:14:14 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-01 10:14:15 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-01 10:14:15 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-01 10:14:15 - o.s.web.filter.CorsFilter - Filter 'corsFilter' configured for use
+2025-08-01 10:14:15 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-01 10:14:15 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-08-01 10:14:15 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - 28 mappings in 'requestMappingHandlerMapping'
+2025-08-01 10:14:15 - o.s.w.s.c.a.WebMvcConfigurer - Default resource handling disabled
+2025-08-01 10:14:15 - o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-08-01 10:14:15 - o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-08-01 10:14:15 - o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-08-01 10:14:15 - o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-08-01 10:14:15 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-08-01 10:14:16 - o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2025-08-01 10:14:16 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-01 10:14:16 - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2025-08-01 10:14:16 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-01 10:14:16 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-01 10:14:16 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-01 10:14:16 - o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-01 10:14:16 - o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2025-08-01 10:14:32 - c.s.QuickCommerceBackendApplication - Starting QuickCommerceBackendApplication using Java 21.0.2 with PID 20282 (/Users/jitendrasharma/git/gitTrial/target/classes started by jitendrasharma in /Users/jitendrasharma/git/gitTrial)
+2025-08-01 10:14:32 - c.s.QuickCommerceBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-01 10:14:32 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-01 10:14:32 - o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-01 10:14:32 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-01 10:14:32 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22 ms. Found 7 JPA repository interfaces.
+2025-08-01 10:14:32 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-08-01 10:14:32 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-01 10:14:32 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-01 10:14:32 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-08-01 10:14:32 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-01 10:14:32 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 573 ms
+2025-08-01 10:14:32 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-01 10:14:32 - org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.8.Final
+2025-08-01 10:14:32 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-08-01 10:14:32 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-01 10:14:32 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-01 10:14:33 - com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9742a01
+2025-08-01 10:14:33 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-01 10:14:33 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-01 10:14:33 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-01 10:14:33 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-01 10:14:33 - o.s.web.filter.CorsFilter - Filter 'corsFilter' configured for use
+2025-08-01 10:14:33 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-01 10:14:33 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-08-01 10:14:34 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - 28 mappings in 'requestMappingHandlerMapping'
+2025-08-01 10:14:34 - o.s.w.s.c.a.WebMvcConfigurer - Default resource handling disabled
+2025-08-01 10:14:34 - o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-08-01 10:14:34 - o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-08-01 10:14:34 - o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-08-01 10:14:34 - o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-08-01 10:14:34 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-08-01 10:14:34 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-08-01 10:14:34 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-01 10:14:34 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-08-01 10:14:34 - c.s.QuickCommerceBackendApplication - Started QuickCommerceBackendApplication in 2.302 seconds (process running for 2.599)
+2025-08-01 10:16:14 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-01 10:16:14 - o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-01 10:16:14 - o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+2025-08-01 10:16:14 - o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+2025-08-01 10:16:14 - o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+2025-08-01 10:16:14 - o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@76ac7de4
+2025-08-01 10:16:14 - o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@3f3bf945
+2025-08-01 10:16:14 - o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-08-01 10:16:14 - o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2025-08-01 10:16:14 - o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/refresh
+2025-08-01 10:16:14 - o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/refresh
+2025-08-01 10:16:14 - o.s.security.web.FilterChainProxy - Securing GET /api/v1/cart
+2025-08-01 10:16:14 - com.sunbeam.service.TokenService - Retrieving token from cookies: access_token
+2025-08-01 10:16:14 - com.sunbeam.service.TokenService - Retrieving token from cookies: access_token
+2025-08-01 10:16:14 - com.sunbeam.service.TokenService - Retrieving token from cookies: access_token
+2025-08-01 10:16:14 - com.sunbeam.service.TokenService - No cookies found in the request
+2025-08-01 10:16:14 - com.sunbeam.service.TokenService - No cookies found in the request
+2025-08-01 10:16:14 - com.sunbeam.service.TokenService - No cookies found in the request
+2025-08-01 10:16:14 - o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-08-01 10:16:14 - o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-08-01 10:16:14 - o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-08-01 10:16:14 - o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/refresh
+2025-08-01 10:16:14 - o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/refresh
+2025-08-01 10:16:14 - o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2025-08-01 10:16:14 - o.s.web.servlet.DispatcherServlet - POST "/api/v1/auth/refresh", parameters={}
+2025-08-01 10:16:14 - o.s.web.servlet.DispatcherServlet - POST "/api/v1/auth/refresh", parameters={}
+2025-08-01 10:16:14 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.sunbeam.controllers.AuthController#refreshTokens(HttpServletRequest, HttpServletResponse)
+2025-08-01 10:16:14 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.sunbeam.controllers.AuthController#refreshTokens(HttpServletRequest, HttpServletResponse)
+2025-08-01 10:16:14 - o.s.security.web.FilterChainProxy - Securing GET /error
+2025-08-01 10:16:14 - o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-08-01 10:16:14 - o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2025-08-01 10:16:14 - o.s.security.web.FilterChainProxy - Securing GET /api/v1/cart
+2025-08-01 10:16:14 - com.sunbeam.service.TokenService - Retrieving token from cookies: access_token
+2025-08-01 10:16:14 - com.sunbeam.service.TokenService - No cookies found in the request
+2025-08-01 10:16:14 - o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-08-01 10:16:14 - o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2025-08-01 10:16:14 - o.s.security.web.FilterChainProxy - Securing GET /error
+2025-08-01 10:16:14 - o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-08-01 10:16:14 - o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2025-08-01 10:16:14 - c.sunbeam.controllers.AuthController - Entering refreshTokens
+2025-08-01 10:16:14 - c.sunbeam.controllers.AuthController - Entering refreshTokens
+2025-08-01 10:16:14 - com.sunbeam.impl.AuthServiceImpl - Entering refreshTokens
+2025-08-01 10:16:14 - com.sunbeam.impl.AuthServiceImpl - Entering refreshTokens
+2025-08-01 10:16:14 - com.sunbeam.service.TokenService - Retrieving token from cookies: refresh_token
+2025-08-01 10:16:14 - com.sunbeam.service.TokenService - Retrieving token from cookies: refresh_token
+2025-08-01 10:16:14 - com.sunbeam.service.TokenService - No cookies found in the request
+2025-08-01 10:16:14 - com.sunbeam.service.TokenService - No cookies found in the request
+2025-08-01 10:16:14 - com.sunbeam.impl.AuthServiceImpl - Invalid or missing refresh token
+2025-08-01 10:16:14 - com.sunbeam.impl.AuthServiceImpl - Invalid or missing refresh token
+2025-08-01 10:16:14 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.sunbeam.exceptions.GlobalExceptionHandler#handleInvalidTokenException(InvalidTokenException)
+2025-08-01 10:16:14 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.sunbeam.exceptions.GlobalExceptionHandler#handleInvalidTokenException(InvalidTokenException)
+2025-08-01 10:16:14 - o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/yaml]
+2025-08-01 10:16:14 - o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/yaml]
+2025-08-01 10:16:14 - o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ResponseDTO(success=false, message=Error: Invalid refresh token, data=null)]
+2025-08-01 10:16:14 - o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ResponseDTO(success=false, message=Error: Invalid refresh token, data=null)]
+2025-08-01 10:16:14 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.sunbeam.exceptions.InvalidTokenException: Invalid refresh token]
+2025-08-01 10:16:14 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.sunbeam.exceptions.InvalidTokenException: Invalid refresh token]
+2025-08-01 10:16:14 - o.s.web.servlet.DispatcherServlet - Completed 401 UNAUTHORIZED
+2025-08-01 10:16:14 - o.s.web.servlet.DispatcherServlet - Completed 401 UNAUTHORIZED
+2025-08-01 10:16:37 - o.s.security.web.FilterChainProxy - Securing OPTIONS /api/v1/auth/signup
+2025-08-01 10:16:37 - o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/signup
+2025-08-01 10:16:37 - com.sunbeam.service.TokenService - Retrieving token from cookies: access_token
+2025-08-01 10:16:37 - com.sunbeam.service.TokenService - No cookies found in the request
+2025-08-01 10:16:37 - o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-08-01 10:16:37 - o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/signup
+2025-08-01 10:16:37 - o.s.web.servlet.DispatcherServlet - POST "/api/v1/auth/signup", parameters={}
+2025-08-01 10:16:37 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.sunbeam.controllers.AuthController#register(UserRegisterDTO)
+2025-08-01 10:16:37 - o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [UserRegisterDTO(name=abcd, email=abcd@gmail.com, password=abcdef, role=null)]
+2025-08-01 10:16:37 - c.sunbeam.controllers.AuthController - Entering register
+2025-08-01 10:16:37 - com.sunbeam.impl.AuthServiceImpl - Entering register method for email: abcd@gmail.com
+2025-08-01 10:16:37 - com.sunbeam.impl.AuthServiceImpl - User registered successfully: abcd@gmail.com
+2025-08-01 10:16:37 - c.sunbeam.controllers.AuthController - Exit register
+2025-08-01 10:16:37 - o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/yaml]
+2025-08-01 10:16:37 - o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ResponseDTO(success=true, message=User registered successfully, data=UserDTO(id=4, name=abcd, email= (truncated)...]
+2025-08-01 10:16:37 - o.s.web.servlet.DispatcherServlet - Completed 201 CREATED
+2025-08-01 10:16:50 - o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/refresh
+2025-08-01 10:16:50 - o.s.security.web.FilterChainProxy - Securing GET /api/v1/cart
+2025-08-01 10:16:50 - o.s.security.web.FilterChainProxy - Securing POST /api/v1/auth/refresh
+2025-08-01 10:16:50 - com.sunbeam.service.TokenService - Retrieving token from cookies: access_token
+2025-08-01 10:16:50 - com.sunbeam.service.TokenService - Retrieving token from cookies: access_token
+2025-08-01 10:16:50 - com.sunbeam.service.TokenService - Retrieving token from cookies: access_token
+2025-08-01 10:16:50 - com.sunbeam.service.TokenService - No cookies found in the request
+2025-08-01 10:16:50 - com.sunbeam.service.TokenService - No cookies found in the request
+2025-08-01 10:16:50 - com.sunbeam.service.TokenService - No cookies found in the request
+2025-08-01 10:16:50 - o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-08-01 10:16:50 - o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-08-01 10:16:50 - o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-08-01 10:16:50 - o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/refresh
+2025-08-01 10:16:50 - o.s.security.web.FilterChainProxy - Secured POST /api/v1/auth/refresh
+2025-08-01 10:16:50 - o.s.web.servlet.DispatcherServlet - POST "/api/v1/auth/refresh", parameters={}
+2025-08-01 10:16:50 - o.s.web.servlet.DispatcherServlet - POST "/api/v1/auth/refresh", parameters={}
+2025-08-01 10:16:50 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.sunbeam.controllers.AuthController#refreshTokens(HttpServletRequest, HttpServletResponse)
+2025-08-01 10:16:50 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.sunbeam.controllers.AuthController#refreshTokens(HttpServletRequest, HttpServletResponse)
+2025-08-01 10:16:50 - o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2025-08-01 10:16:50 - o.s.security.web.FilterChainProxy - Securing GET /error
+2025-08-01 10:16:50 - o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-08-01 10:16:50 - o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2025-08-01 10:16:50 - o.s.security.web.FilterChainProxy - Securing GET /api/v1/cart
+2025-08-01 10:16:50 - com.sunbeam.service.TokenService - Retrieving token from cookies: access_token
+2025-08-01 10:16:50 - com.sunbeam.service.TokenService - No cookies found in the request
+2025-08-01 10:16:50 - o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-08-01 10:16:50 - c.sunbeam.controllers.AuthController - Entering refreshTokens
+2025-08-01 10:16:50 - o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2025-08-01 10:16:50 - com.sunbeam.impl.AuthServiceImpl - Entering refreshTokens
+2025-08-01 10:16:50 - com.sunbeam.service.TokenService - Retrieving token from cookies: refresh_token
+2025-08-01 10:16:50 - com.sunbeam.service.TokenService - No cookies found in the request
+2025-08-01 10:16:50 - com.sunbeam.impl.AuthServiceImpl - Invalid or missing refresh token
+2025-08-01 10:16:50 - o.s.security.web.FilterChainProxy - Securing GET /error
+2025-08-01 10:16:50 - o.s.s.w.a.AnonymousAuthenticationFilter - Set SecurityContextHolder to anonymous SecurityContext
+2025-08-01 10:16:50 - o.s.s.w.a.Http403ForbiddenEntryPoint - Pre-authenticated entry point called. Rejecting access
+2025-08-01 10:16:50 - c.sunbeam.controllers.AuthController - Entering refreshTokens
+2025-08-01 10:16:50 - com.sunbeam.impl.AuthServiceImpl - Entering refreshTokens
+2025-08-01 10:16:50 - com.sunbeam.service.TokenService - Retrieving token from cookies: refresh_token
+2025-08-01 10:16:50 - com.sunbeam.service.TokenService - No cookies found in the request
+2025-08-01 10:16:50 - com.sunbeam.impl.AuthServiceImpl - Invalid or missing refresh token
+2025-08-01 10:16:50 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.sunbeam.exceptions.GlobalExceptionHandler#handleInvalidTokenException(InvalidTokenException)
+2025-08-01 10:16:50 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Using @ExceptionHandler com.sunbeam.exceptions.GlobalExceptionHandler#handleInvalidTokenException(InvalidTokenException)
+2025-08-01 10:16:50 - o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/yaml]
+2025-08-01 10:16:50 - o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json] and supported [application/json, application/*+json, application/yaml]
+2025-08-01 10:16:50 - o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ResponseDTO(success=false, message=Error: Invalid refresh token, data=null)]
+2025-08-01 10:16:50 - o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [ResponseDTO(success=false, message=Error: Invalid refresh token, data=null)]
+2025-08-01 10:16:50 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.sunbeam.exceptions.InvalidTokenException: Invalid refresh token]
+2025-08-01 10:16:50 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [com.sunbeam.exceptions.InvalidTokenException: Invalid refresh token]
+2025-08-01 10:16:50 - o.s.web.servlet.DispatcherServlet - Completed 401 UNAUTHORIZED
+2025-08-01 10:16:50 - o.s.web.servlet.DispatcherServlet - Completed 401 UNAUTHORIZED
+2025-08-01 10:17:52 - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-08-01 10:17:52 - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-01 10:17:52 - o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-08-01 10:17:52 - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-08-01 10:17:52 - o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-08-01 10:17:52 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-01 10:17:52 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-01 10:17:52 - com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-01 10:17:52 - c.s.QuickCommerceBackendApplication - Starting QuickCommerceBackendApplication using Java 21.0.2 with PID 20282 (/Users/jitendrasharma/git/gitTrial/target/classes started by jitendrasharma in /Users/jitendrasharma/git/gitTrial)
+2025-08-01 10:17:52 - c.s.QuickCommerceBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-01 10:17:52 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-01 10:17:52 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 7 JPA repository interfaces.
+2025-08-01 10:17:52 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-08-01 10:17:52 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-01 10:17:52 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-01 10:17:52 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-08-01 10:17:52 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-01 10:17:52 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 239 ms
+2025-08-01 10:17:52 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-01 10:17:52 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-08-01 10:17:52 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-01 10:17:52 - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2025-08-01 10:17:52 - com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@493f0983
+2025-08-01 10:17:52 - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2025-08-01 10:17:52 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-01 10:17:52 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-01 10:17:52 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-01 10:17:52 - o.s.web.filter.CorsFilter - Filter 'corsFilter' configured for use
+2025-08-01 10:17:52 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-01 10:17:52 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-08-01 10:17:52 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - 28 mappings in 'requestMappingHandlerMapping'
+2025-08-01 10:17:53 - o.s.w.s.c.a.WebMvcConfigurer - Default resource handling disabled
+2025-08-01 10:17:53 - o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-08-01 10:17:53 - o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-08-01 10:17:53 - o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-08-01 10:17:53 - o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-08-01 10:17:53 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-08-01 10:17:53 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-08-01 10:17:53 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-01 10:17:53 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-08-01 10:17:53 - c.s.QuickCommerceBackendApplication - Started QuickCommerceBackendApplication in 0.923 seconds (process running for 198.841)
+2025-08-01 10:17:53 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2025-08-01 10:18:59 - o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-08-01 10:18:59 - o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-01 10:18:59 - o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2025-08-01 10:18:59 - o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-08-01 10:18:59 - o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2025-08-01 10:18:59 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-01 10:18:59 - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2025-08-01 10:18:59 - com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2025-08-01 10:18:59 - c.s.QuickCommerceBackendApplication - Starting QuickCommerceBackendApplication using Java 21.0.2 with PID 20282 (/Users/jitendrasharma/git/gitTrial/target/classes started by jitendrasharma in /Users/jitendrasharma/git/gitTrial)
+2025-08-01 10:18:59 - c.s.QuickCommerceBackendApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-01 10:18:59 - o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-01 10:18:59 - o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 7 JPA repository interfaces.
+2025-08-01 10:18:59 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-08-01 10:18:59 - o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-08-01 10:18:59 - o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-01 10:18:59 - o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-08-01 10:18:59 - o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-01 10:18:59 - o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 227 ms
+2025-08-01 10:18:59 - o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-01 10:18:59 - o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-08-01 10:18:59 - o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-01 10:18:59 - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2025-08-01 10:18:59 - com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c1e452c
+2025-08-01 10:18:59 - com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2025-08-01 10:18:59 - o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-01 10:18:59 - o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-01 10:18:59 - o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-01 10:18:59 - o.s.web.filter.CorsFilter - Filter 'corsFilter' configured for use
+2025-08-01 10:19:00 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-01 10:19:00 - o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2025-08-01 10:19:00 - o.s.w.s.m.m.a.RequestMappingHandlerMapping - 28 mappings in 'requestMappingHandlerMapping'
+2025-08-01 10:19:00 - o.s.w.s.c.a.WebMvcConfigurer - Default resource handling disabled
+2025-08-01 10:19:00 - o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+2025-08-01 10:19:00 - o.s.s.web.DefaultSecurityFilterChain - Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-08-01 10:19:00 - o.s.v.b.OptionalValidatorFactoryBean - Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-08-01 10:19:00 - o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-08-01 10:19:00 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 2 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-08-01 10:19:00 - o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2025-08-01 10:19:00 - o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-08-01 10:19:00 - o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2025-08-01 10:19:00 - c.s.QuickCommerceBackendApplication - Started QuickCommerceBackendApplication in 0.777 seconds (process running for 265.943)
+2025-08-01 10:19:00 - o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
